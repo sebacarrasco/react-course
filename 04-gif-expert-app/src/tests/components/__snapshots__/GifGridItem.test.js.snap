@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for <GifGridItem /> should render the component correctly 1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="A title for the GifGridItem"
+    src="https://example_url.com"
+  />
+  <p>
+     
+    A title for the GifGridItem
+     
+  </p>
+</div>
+`;

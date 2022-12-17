@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <PrimeraApp /> con las herramientas de testeo de Enzyme Debe mostrar <PrimeraApp /> correctamente 1`] = `
+<Fragment>
+  <h1>
+    Hola hola
+     locos
+  </h1>
+  <p>
+    Cómo estamos?
+  </p>
+  <p>
+    Un booleano: 
+    <Component />
+     
+  </p>
+  <p>
+     Un arreglo: 
+    1
+    2
+    3
+    4
+  </p>
+  <pre>
+     Un objeto: 
+    {
+   "mensjaje": "hola",
+   "id": 2
+}
+  </pre>
+</Fragment>
+`;

@@ -1,0 +1,1 @@
+A simple react application with single html file.

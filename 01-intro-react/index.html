@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FirstReactApp</title>
+
+    <!-- React -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <div id="root2"></div>
+    
+    <script type="text/babel">
+
+        const div_root = document.querySelector("#root");
+        name = "Seba"
+        const h1_tag = <h1>Wena { name }</h1>;
+        ReactDOM.render(h1_tag, div_root);
+
+        // Ahora con jquery
+        const div_root_jquery = $("#root2")[0]
+        name = "Sebastián"
+        const h1_tag_jquery = <h1>Wena { name }</h1>;
+        ReactDOM.render(h1_tag_jquery, div_root_jquery);
+    </script>
+</body>
+</html>

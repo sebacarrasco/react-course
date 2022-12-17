@@ -1,0 +1,12 @@
+
+// Nótese que no se pone el _ con el que empieza el nombre del partial
+@import './base/settings';
+@import './base/base';
+
+// Components
+@import './components/auth';
+@import './components/buttons';
+@import './components/links';
+@import './components/journal';
+@import './components/nothing';
+@import './components/notes';

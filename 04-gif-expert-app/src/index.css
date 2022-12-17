@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 5%;
+}
+
+input{
+    color:gray;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.card-grid{
+    /* Clase para GifGrid */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    /* Clase para GifGridItem */
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 2%;
+    overflow: hidden;
+    margin-bottom: 3%;
+    margin-right: 3%;
+}
+
+.card p {
+    padding: 1%;
+    text-align: center;
+}
+
+.card img{
+    max-height: 170px;
+}
